@@ -18,7 +18,7 @@
 
 3. 해당 파일이 **공격자의 FTP 서버**로 전송되었는지 확인
 
-<img src="images/keylogger-2.png" width="70%">
+<img src="images/keylogger-2.png" width="50%">
 
 
 # Disclaimer
